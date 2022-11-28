@@ -1,0 +1,5 @@
+POST http://10.251.2.102:8123/mobile/create/attendance
+
+content-type: application/json
+
+{"jsonrpc":"2.0", "params":{"uid":"2", "time":"2022-11-17 09:09:09", "latitude":"0.2345", "longitude":"0.2345"}}
