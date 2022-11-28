@@ -66,6 +66,12 @@ class Main extends StatelessWidget {
               {"name": "joemama", "job": "leader"},
               'reqres test',
             ),
+            httpPostTest(
+              'https://reqres.in/api/users',
+              {'': ''},
+              {"name": "asdasdasdasdasdasd", "job": "leader"},
+              'reqres test',
+            ),
           ],
         ),
       ),
